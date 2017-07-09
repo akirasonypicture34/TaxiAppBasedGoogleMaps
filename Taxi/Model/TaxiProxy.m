@@ -45,7 +45,8 @@
                 
                 if ([dictionary valueForKey:@"acVehicle"]!=nil) {
                     
-                     taxi.acVehicle = [dictionary valueForKey:@"acVehicle"];
+//                      common acvehicle
+                    taxi.acVehicle = [dictionary valueForKey:@"acVehicle"];
                     
                 } else {
                     
